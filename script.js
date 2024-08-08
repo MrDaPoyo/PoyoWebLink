@@ -1,6 +1,6 @@
 const JsonUrl = "https://raw.githubusercontent.com/MrDaPoyo/PoyoWebLink/main/ads.json";
 const url = "https://raw.githubusercontent.com/MrDaPoyo/PoyoWebLink/main/";
-const media = "http://weblink.poyo.study/media/";
+const media = "media/";
 
 async function fetchData() {
     const response = await fetch(JsonUrl);
@@ -26,6 +26,7 @@ async function renderAd() {
         let adImage = document.createElement("img");
         adImage.src = media+ad.media;
         adImage.style.width = "128px";
+        adImage.crossOrigin = "anonymous";
         adImage.style.height = "128px";
         adContainer.appendChild(adImage);
     } catch (error) {
