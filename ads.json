@@ -1,20 +1,8 @@
 {
     "ads": [
         {
-            "name": "image1",
-            "url": "https://example.com/image1.jpg"
-        },
-        {
-            "name": "image2",
-            "url": "https://example.com/image2.jpg"
-        },
-        {
-            "name": "gif1",
-            "url": "https://example.com/gif1.gif"
-        },
-        {
-            "name": "gif2",
-            "url": "https://example.com/gif2.gif"
+            "media": "memetest.jpg",
+            "url": "https://poyo.study"
         }
     ]
 }
