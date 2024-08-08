@@ -15,5 +15,7 @@ Copy this into your index.html file:
         <script defer src="poyoweblink.js"></script>
     </div>
 ```
+If you didn't place `poyoweblink.js` in the same directory as your index.html, replace `src="poyoweblink.js"` for `src="<location>/poyoweblink.js"`
+
 And that's all!
 
