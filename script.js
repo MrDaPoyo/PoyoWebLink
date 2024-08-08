@@ -1,4 +1,4 @@
-const JsonUrl = "https://github.com/mrdapoyo/PoyoWebLink/ads.json";
+const JsonUrl = "https://raw.githubusercontent.com/MrDaPoyo/PoyoWebLink/main/ads.json";
 
 async function fetchData() {
     const response = await fetch(JsonUrl);
