@@ -21,6 +21,7 @@ async function returnAd() {
 async function renderAd() {
     try {
         let ad = await returnAd();
+        let adContainer = document.getElementby
         let adImage = document.createElement("img");
         adImage.src = media + ad.media;
         document.body.appendChild(adImage);
