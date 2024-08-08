@@ -25,6 +25,8 @@ async function renderAd() {
         let adImage = document.createElement("img");
         adImage.src = media + ad.media;
         adImage.alt = ad.url;
+        adImage.style.width = "128px";
+        adImage.style.height = "128px";
         adImage.addEventListener("click", () => {
             window.open(ad.url);
         });
