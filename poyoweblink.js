@@ -23,31 +23,31 @@ async function returnAd() {
 async function renderAd() {
     try {
         let ad = await returnAd();
-        let adContainer = document.getElementById("adContainer");
-        let adImage = document.getElementById("adImage");
-        let adLink = document.getElementById("adLink");
-        let adText = document.getElementById("adText");
-        adText.style.position = "absolute";
-        adText.style.bottom = "0";
-        adText.style.left = "0";
-        adText.style.zIndex = "3100";
-        adText.style.width = "128px";
-        adText.style.padding = "0";
-        adText.style.margin = "0";  
-        adText.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-        adText.style.color = "white";
-        let adNav = document.createElement("a");
-        adLink.href = ad.url;
-        adLink.style.zIndex = "3090";
-        adLink.style.position = "relative";
-        adContainer.appendChild(adLink);
-        adImage.src = media + ad.media;
-        adImage.style.width = "128px";
-        adImage.style.height = "128px";
-        adImage.style.position = "relative";
+        let poyoContainer = document.getElementById("poyoContainer");
+        let poyoImage = document.getElementById("poyoImage");
+        let poyoLink = document.getElementById("poyoLink");
+        let poyoText = document.getElementById("poyoText");
+        poyoText.style.position = "absolute";
+        poyoText.style.bottom = "0";
+        poyoText.style.left = "0";
+        poyoText.style.zIndex = "3100";
+        poyoText.style.width = "128px";
+        poyoText.style.padding = "0";
+        poyoText.style.margin = "0";  
+        poyoText.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+        poyoText.style.color = "white";
+        let poyoNav = document.createElement("a");
+        poyoLink.href = ad.url;
+        poyoLink.style.zIndex = "3090";
+        poyoLink.style.position = "relative";
+        poyoContainer.appendChild(poyoLink);
+        poyoImage.src = media + ad.media;
+        poyoImage.style.width = "128px";
+        poyoImage.style.height = "128px";
+        poyoImage.style.position = "relative";
 
-        adLink.appendChild(adImage);
-        adImage.appendChild(adNav);
+        poyoLink.appendChild(poyoImage);
+        poyoImage.appendChild(poyoNav);
         
     } catch (error) {
         console.error(error);
