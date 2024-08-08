@@ -21,16 +21,14 @@ async function returnAd() {
 async function renderAd() {
     try {
         let ad = await returnAd();
-        let adContainer = document.getElementById("adContainer");
         let adImage = document.createElement("img");
+        let adLink = document.createElement("a");
+        adLink.href = ad.url;
+        adLink.textContent = "";
+        document.body.appendChild(adLink);
         adImage.src = media + ad.media;
-        adImage.alt = ad.url;
-        adImage.style.width = "128px";
-        adImage.style.height = "128px";
-        adImage.addEventListener("click", () => {
-            window.open(ad.url);
-        });
-        adContainer.appendChild(adImage);
+        adLink.appendChild(adImage);
+        
     } catch (error) {
         console.error(error);
     }
