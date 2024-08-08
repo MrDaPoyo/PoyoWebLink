@@ -47,6 +47,8 @@ async function renderAd() {
         poyoImage.style.width = "128px";
         poyoImage.style.height = "128px";
         poyoImage.style.position = "relative";
+        poyoImage.style.padding = "0";
+        poyoImage.style.margin = "0";
 
         poyoLink.appendChild(poyoImage);
         poyoImage.appendChild(poyoNav);
