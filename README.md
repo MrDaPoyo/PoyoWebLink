@@ -4,10 +4,11 @@
 PoyoWebLink is a web application that displays random ads from the indie web.
 
 ## Usage
-Copy this into your index.html file:
+Copy this line into your `<head>`: `<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://weblink.poyo.study;">`
+
+And copy this into your index.html file:
 ```
 <div id="poyoContainer">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://weblink.poyo.study;">
     <a id="poyoLink">
         <img id="poyoImage">
         <p id="poyoText">PoyoWebLink</p>
