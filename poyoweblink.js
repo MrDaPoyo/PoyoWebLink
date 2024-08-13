@@ -38,9 +38,10 @@ async function renderAd() {
         poyoText.style.color = "white";
         let poyoNav = document.createElement("a");
         poyoLink.href = ad.url;
-        poyoLink.style.zIndex = "3090";
+        poyoLink.style.zIndex = "3000";
         poyoLink.style.position = "relative";
         poyoLink.style.fontFamily = "Arial";
+        poyoLink.style.fontSize = "2px";
         poyoLink.style.borderBottom = "2px solid pink";
         poyoContainer.appendChild(poyoLink);
         poyoImage.src = media + ad.media;
