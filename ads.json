@@ -1,20 +1,9 @@
 {
     "ads": [
         {
-            "media": "memetest.jpg",
+            "media": "poyo.gif",
             "url": "https://poyo.study"
-        },
-        {
-            "media": "poyostudy.png",
-            "url": "https://poyo.study"
-        },
-        {
-            "media": "nobitches.webp",
-            "url": "https://mechagic.lexiqqq.com"
-        },
-        {
-            "media": "hyperlinkadventure.webp",
-            "url": "https://hyperlinkadventure.neocities.org"
         }
+        
     ]
 }

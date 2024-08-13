@@ -31,7 +31,7 @@ async function renderAd() {
         poyoText.style.bottom = "0";
         poyoText.style.left = "0";
         poyoText.style.zIndex = "3100";
-        poyoText.style.width = "128px";
+        poyoText.style.width = "8px";
         poyoText.style.padding = "0";
         poyoText.style.margin = "0";  
         poyoText.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
@@ -41,11 +41,11 @@ async function renderAd() {
         poyoLink.style.zIndex = "3090";
         poyoLink.style.position = "relative";
         poyoLink.style.fontFamily = "Arial";
-        poyoLink.style.borderBottom = "4px solid pink";
+        poyoLink.style.borderBottom = "2px solid pink";
         poyoContainer.appendChild(poyoLink);
         poyoImage.src = media + ad.media;
-        poyoImage.style.width = "128px";
-        poyoImage.style.height = "128px";
+        poyoImage.style.width = "88px";
+        poyoImage.style.height = "31px";
         poyoImage.style.position = "relative";
         poyoImage.style.padding = "0";
         poyoImage.style.margin = "0";
