@@ -3,6 +3,10 @@
         {
             "media": "poyo.gif",
             "url": "https://poyo.study"
+        },
+        {
+            "media": "poyoreporterbutton.png",
+            "url": "https://reporter.poyo.study"
         }
         
     ]
